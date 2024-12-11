@@ -32,9 +32,14 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
+    },
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
     }
-
-
   },
   ignoreDeadLinks: [
     // 忽略精确网址 "/playground"

@@ -9,9 +9,12 @@
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "coisini",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.5.0"
+  },
+  "dependencies": {
+    "vue": "^3.4.10"
   }
 }

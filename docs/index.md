@@ -1,10 +1,16 @@
 ---
 layout: home
+title: coisini-ui-plus
+editLink: true
+lastUpdated: true
 
 hero:
-  name: "电攻邦-组件库"
+  name: "vue3基础组件"
   text: "跨项目使用的组件库"
   tagline: 基于 Vue 3，面向内部开发者的组件库
+  image:
+    src: /img/coisini.jpg
+    alt: coisini-ui-plus
 
   actions:
     - theme: brand
@@ -18,9 +24,10 @@ hero:
       link: /mini/overview
 
 features:
-  - title: 赤霄后台管理系统
+  - icon: 🔨
+    title: 赤霄后台管理系统
     details: 基于ruoyi搭建的管理系统，组件库使用的是element-plus
-  - title: 电源租赁-小程序
+  - icon: ✈️
+    title: 电源租赁-小程序
     details: 基于uniapp搭建的小程序，组件库使用的是uview-plus
 ---
-

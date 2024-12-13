@@ -30,3 +30,29 @@ const debounce = useDebounce(fn, delay)
 | --- | --- | --- | --- |
 | fn | 需要防抖的函数 | `(...args: any[]) => void` | - |
 | delay | 防抖时间 | `number` | 1000 |
+
+## 具体实现代码
+::: details 代码
+
+```ts
+/* eslint-disable no-unused-vars */
+const useDebounce = <T extends any[], D>(
+  cb: (..._argv: T) => D,
+  delay: number = 500,
+): ((..._argv: T) => void) => {
+  let timer: null | number = null;
+  return (..._argv: T) => {
+    if (timer) {
+      clearTimeout(timer);
+      timer = null;
+    }
+    timer = setTimeout(() => {
+      return cb(..._argv);
+    }, delay);
+  };
+};
+export default useDebounce;
+
+```
+:::
+

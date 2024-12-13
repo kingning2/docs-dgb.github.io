@@ -30,3 +30,26 @@ const throttle = useThrottle(fn, delay)
 | --- | --- | --- | --- |
 | fn | 需要节流的函数 | `(...args: any[]) => void` | - |
 | delay | 节流时间 | `number` | 1000 |
+
+## 具体实现代码
+::: details 代码
+```ts
+const useThrottle = <T extends any[], D>(
+  cb: (..._argv: T) => D,
+  delay: number = 500,
+): ((..._argv: T) => void) => {
+  let timer: null | number = null;
+  return (..._argv: T) => {
+    if (timer) {
+      return;
+    }
+    cb(..._argv);
+    timer = setTimeout(() => {
+      timer = null;
+    }, delay);
+  };
+};
+export default useThrottle;
+
+```
+

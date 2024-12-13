@@ -6,15 +6,20 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:components": "vitepress-rc"
   },
   "keywords": [],
   "author": "coisini",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.5.0",
+    "vitepress-theme-demoblock": "^3.0.7"
   },
   "dependencies": {
-    "vue": "^3.4.10"
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.9.0",
+    "vue": "^3.4.10",
+    "sass": "1.56.1"
   }
 }

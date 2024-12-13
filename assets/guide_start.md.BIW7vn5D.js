@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.K3uziCdX.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/start.md","filePath":"guide/start.md","lastUpdated":1732977109000}'),r={name:"guide/start.md"};function s(o,c,d,n,i,p){return a(),e("div")}const f=t(r,[["render",s]]);export{m as __pageData,f as default};

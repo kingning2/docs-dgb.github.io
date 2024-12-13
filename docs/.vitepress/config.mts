@@ -4,6 +4,7 @@ import { guideSidebar, adminSidebar, miniSidebar, hooksSidebar } from './sidebar
 export default defineConfig({
   title: "电攻邦-组件库",
   description: "跨项目使用的组件库",
+  base: '/docs-dgb.github.io/', 
   themeConfig: {
     // 导航栏
     nav: [

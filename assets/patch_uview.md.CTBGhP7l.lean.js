@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>UView 补丁 | 电攻邦-组件库</title>
-    <meta name="description" content="跨项目使用的组件库">
-    <meta name="generator" content="VitePress v1.5.0">
-    <link rel="preload stylesheet" href="/docs-dgb.github.io/assets/style.DpvFjifm.css" as="style">
-    <link rel="preload stylesheet" href="/docs-dgb.github.io/vp-icons.css" as="style">
-    
-    <script type="module" src="/docs-dgb.github.io/assets/app.CpRq2jwY.js"></script>
-    <link rel="preload" href="/docs-dgb.github.io/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/docs-dgb.github.io/assets/chunks/theme.C6q42wm4.js">
-    <link rel="modulepreload" href="/docs-dgb.github.io/assets/chunks/framework.Bh_p5CYG.js">
-    <link rel="modulepreload" href="/docs-dgb.github.io/assets/patch_uview.md.CTBGhP7l.lean.js">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
-    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
-    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
-  </head>
-  <body>
-    <div id="app"><div class="Layout" data-v-72a86f6d><!--[--><!--]--><!--[--><span tabindex="-1" data-v-679c7867></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-679c7867> Skip to content </a><!--]--><!----><header class="VPNav" data-v-72a86f6d data-v-a5d69969><div class="VPNavBar" data-v-a5d69969 data-v-59dc49fa><div class="wrapper" data-v-59dc49fa><div class="container" data-v-59dc49fa><div class="title" data-v-59dc49fa><div class="VPNavBarTitle has-sidebar" data-v-59dc49fa data-v-d9354712><a class="title" href="/docs-dgb.github.io/" data-v-d9354712><!--[--><!--]--><!----><span data-v-d9354712>电攻邦-组件库</span><!--[--><!--]--></a></div></div><div class="content" data-v-59dc49fa><div class="content-body" data-v-59dc49fa><!--[--><!--]--><div class="VPNavBarSearch search" data-v-59dc49fa><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-59dc49fa data-v-c4bdd0b9><span id="main-nav-aria-label" class="visually-hidden" data-v-c4bdd0b9> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>首页</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/guide/start.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>指南</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/admin/overview.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>后台组件</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/mini/overview.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>小程序组件</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/hooks/useRequest.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>API</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/docs-dgb.github.io/plugins/path-replace.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>Vite插件</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink active" href="/docs-dgb.github.io/patch/uview.html" tabindex="0" data-v-c4bdd0b9 data-v-daf056fb><!--[--><span data-v-daf056fb>补丁</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-59dc49fa data-v-a9c528d9><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-a9c528d9 data-v-9c6d307f data-v-b953cbd1><span class="check" data-v-b953cbd1><span class="icon" data-v-b953cbd1><!--[--><span class="vpi-sun sun" data-v-9c6d307f></span><span class="vpi-moon moon" data-v-9c6d307f></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-59dc49fa data-v-6e26b67d data-v-0917dc9d><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kingning2?tab=repositories" aria-label="github" target="_blank" rel="noopener" data-v-0917dc9d data-v-adccf98a><span class="vpi-social-github"></span></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-59dc49fa data-v-e939555d data-v-153d18e6><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-153d18e6><span class="vpi-more-horizontal icon" data-v-153d18e6></span></button><div class="menu" data-v-153d18e6><div class="VPMenu" data-v-153d18e6 data-v-8880f809><!----><!--[--><!--[--><!----><div class="group" data-v-e939555d><div class="item appearance" data-v-e939555d><p class="label" data-v-e939555d>Appearance</p><div class="appearance-action" data-v-e939555d><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-e939555d data-v-9c6d307f data-v-b953cbd1><span class="check" data-v-b953cbd1><span class="icon" data-v-b953cbd1><!--[--><span class="vpi-sun sun" data-v-9c6d307f></span><span class="vpi-moon moon" data-v-9c6d307f></span><!--]--></span></span></button></div></div></div><div class="group" data-v-e939555d><div class="item social-links" data-v-e939555d><div class="VPSocialLinks social-links-list" data-v-e939555d data-v-0917dc9d><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kingning2?tab=repositories" aria-label="github" target="_blank" rel="noopener" data-v-0917dc9d data-v-adccf98a><span class="vpi-social-github"></span></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-59dc49fa data-v-868051ed><span class="container" data-v-868051ed><span class="top" data-v-868051ed></span><span class="middle" data-v-868051ed></span><span class="bottom" data-v-868051ed></span></span></button></div></div></div></div><div class="divider" data-v-59dc49fa><div class="divider-line" data-v-59dc49fa></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-72a86f6d data-v-fec666ad><div class="container" data-v-fec666ad><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-fec666ad><span class="vpi-align-left menu-icon" data-v-fec666ad></span><span class="menu-text" data-v-fec666ad>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-fec666ad data-v-fb19aba9><button data-v-fb19aba9>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-72a86f6d data-v-8a48f9e8><div class="curtain" data-v-8a48f9e8></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-8a48f9e8><span class="visually-hidden" id="sidebar-aria-label" data-v-8a48f9e8> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-386f45c9><section class="VPSidebarItem level-0 has-active" data-v-386f45c9 data-v-02abe1ec><div class="item" role="button" tabindex="0" data-v-02abe1ec><div class="indicator" data-v-02abe1ec></div><h2 class="text" data-v-02abe1ec>补丁大全</h2><!----></div><div class="items" data-v-02abe1ec><!--[--><div class="VPSidebarItem level-1 is-link" data-v-02abe1ec data-v-02abe1ec><div class="item" data-v-02abe1ec><div class="indicator" data-v-02abe1ec></div><a class="VPLink link link" href="/docs-dgb.github.io/patch/uview.html" data-v-02abe1ec><!--[--><p class="text" data-v-02abe1ec>UView 补丁</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-72a86f6d data-v-ba1aca1b><div class="VPDoc has-sidebar has-aside" data-v-ba1aca1b data-v-c9533696><!--[--><!--]--><div class="container" data-v-c9533696><div class="aside" data-v-c9533696><div class="aside-curtain" data-v-c9533696></div><div class="aside-container" data-v-c9533696><div class="aside-content" data-v-c9533696><div class="VPDocAside" data-v-c9533696 data-v-c4ee8b84><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-c4ee8b84 data-v-8adba72a><div class="content" data-v-8adba72a><div class="outline-marker" data-v-8adba72a></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-8adba72a>On this page</div><ul class="VPDocOutlineItem root" data-v-8adba72a data-v-79f5af04><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-c4ee8b84></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-c9533696><div class="content-container" data-v-c9533696><!--[--><!--]--><main class="main" data-v-c9533696><div style="position:relative;" class="vp-doc _docs-dgb_github_io_patch_uview" data-v-c9533696><div><h1 id="uview-补丁" tabindex="-1">UView 补丁 <a class="header-anchor" href="#uview-补丁" aria-label="Permalink to &quot;UView 补丁&quot;">​</a></h1><h2 id="功能" tabindex="-1">功能 <a class="header-anchor" href="#功能" aria-label="Permalink to &quot;功能&quot;">​</a></h2><p><code>uview-plus@3.3.36.patch</code></p><ul><li>修复 UView 的 <code>uni-app</code> 兼容问题</li><li>为 UView 中日历组件添加点击日历事件</li></ul><h2 id="具体代码" tabindex="-1">具体代码 <a class="header-anchor" href="#具体代码" aria-label="Permalink to &quot;具体代码&quot;">​</a></h2><div class="warning custom-block"><p class="custom-block-title">WARNING</p><ul><li>uview版本锁定在3.3.36，如果需要更新版本，请手动更新。</li><li>请在项目根目录下执行 <code>pnpm install</code> 安装补丁。</li></ul><div class="language-json vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// package.json</span></span>
+import{_ as s,c as a,aP as p,o as t}from"./chunks/framework.Bh_p5CYG.js";const u=JSON.parse('{"title":"UView 补丁","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"patch/uview.md","filePath":"patch/uview.md","lastUpdated":1734319953000}'),l={name:"patch/uview.md"};function e(i,n,c,o,r,m){return t(),a("div",null,n[0]||(n[0]=[p(`<h1 id="uview-补丁" tabindex="-1">UView 补丁 <a class="header-anchor" href="#uview-补丁" aria-label="Permalink to &quot;UView 补丁&quot;">​</a></h1><h2 id="功能" tabindex="-1">功能 <a class="header-anchor" href="#功能" aria-label="Permalink to &quot;功能&quot;">​</a></h2><p><code>uview-plus@3.3.36.patch</code></p><ul><li>修复 UView 的 <code>uni-app</code> 兼容问题</li><li>为 UView 中日历组件添加点击日历事件</li></ul><h2 id="具体代码" tabindex="-1">具体代码 <a class="header-anchor" href="#具体代码" aria-label="Permalink to &quot;具体代码&quot;">​</a></h2><div class="warning custom-block"><p class="custom-block-title">WARNING</p><ul><li>uview版本锁定在3.3.36，如果需要更新版本，请手动更新。</li><li>请在项目根目录下执行 <code>pnpm install</code> 安装补丁。</li></ul><div class="language-json vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// package.json</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;pnpm&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  &quot;patchedDependencies&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    &quot;uview-plus@3.3.36&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;patches/uview-plus@3.3.36.patch&quot;</span></span>
@@ -63,7 +40,7 @@
 <span class="line"><span>+								if(this.rangePrompt) {</span></span>
 <span class="line"><span>+									toast(this.rangePrompt)</span></span>
 <span class="line"><span>+								} else {</span></span>
-<span class="line"><span>+									toast(`选择天数不能低于 ${this.minRange} 天`)</span></span>
+<span class="line"><span>+									toast(\`选择天数不能低于 \${this.minRange} 天\`)</span></span>
 <span class="line"><span>+								}</span></span>
 <span class="line"><span>+								return</span></span>
 <span class="line"><span>+							}</span></span>
@@ -322,9 +299,9 @@
 <span class="line"><span>-		subtitle() {</span></span>
 <span class="line"><span>-			// 初始化时，this.months为空数组，所以需要特别判断处理</span></span>
 <span class="line"><span>-			if (this.months.length) {</span></span>
-<span class="line"><span>-				return `${this.months[this.monthIndex].year}年${</span></span>
+<span class="line"><span>-				return \`\${this.months[this.monthIndex].year}年\${</span></span>
 <span class="line"><span>-					this.months[this.monthIndex].month</span></span>
-<span class="line"><span>-				}月`</span></span>
+<span class="line"><span>-				}月\`</span></span>
 <span class="line"><span>-			} else {</span></span>
 <span class="line"><span>-				return &#39;&#39;</span></span>
 <span class="line"><span>-			}</span></span>
@@ -485,12 +462,12 @@
 <span class="line"><span>-				  month</span></span>
 <span class="line"><span>-			  }) =&gt; {</span></span>
 <span class="line"><span>-				month = padZero(month)</span></span>
-<span class="line"><span>-				return `${year}-${month}` === selected</span></span>
+<span class="line"><span>-				return \`\${year}-\${month}\` === selected</span></span>
 <span class="line"><span>-			})</span></span>
 <span class="line"><span>-			if (_index !== -1) {</span></span>
 <span class="line"><span>-				// #ifndef MP-WEIXIN</span></span>
 <span class="line"><span>-				this.$nextTick(() =&gt; {</span></span>
-<span class="line"><span>-					this.scrollIntoView = `month-${_index}`</span></span>
+<span class="line"><span>-					this.scrollIntoView = \`month-\${_index}\`</span></span>
 <span class="line"><span>-					this.scrollIntoViewScroll = this.scrollIntoView</span></span>
 <span class="line"><span>-				})</span></span>
 <span class="line"><span>-				// #endif</span></span>
@@ -507,7 +484,7 @@
 <span class="line"><span>-			for (let i = 0; i &lt; this.months.length; i++) {</span></span>
 <span class="line"><span>-				if (scrollTop &gt;= (this.months[i].top || this.listHeight)) {</span></span>
 <span class="line"><span>-					this.monthIndex = i</span></span>
-<span class="line"><span>-					this.scrollIntoViewScroll = `month-${i}`</span></span>
+<span class="line"><span>-					this.scrollIntoViewScroll = \`month-\${i}\`</span></span>
 <span class="line"><span>-				}</span></span>
 <span class="line"><span>-			}</span></span>
 <span class="line"><span>-		},</span></span>
@@ -582,9 +559,9 @@
 <span class="line"><span>+    subtitle() {</span></span>
 <span class="line"><span>+      // 初始化时，this.months为空数组，所以需要特别判断处理</span></span>
 <span class="line"><span>+      if (this.months.length) {</span></span>
-<span class="line"><span>+        return `${this.months[this.monthIndex].year}年${</span></span>
+<span class="line"><span>+        return \`\${this.months[this.monthIndex].year}年\${</span></span>
 <span class="line"><span>+          this.months[this.monthIndex].month</span></span>
-<span class="line"><span>+        }月`</span></span>
+<span class="line"><span>+        }月\`</span></span>
 <span class="line"><span>+      } else {</span></span>
 <span class="line"><span>+        return &#39;&#39;</span></span>
 <span class="line"><span>+      }</span></span>
@@ -733,12 +710,12 @@
 <span class="line"><span>+      // 查询默认日期在可选列表的下标</span></span>
 <span class="line"><span>+      const _index = this.months.findIndex(({ year, month }) =&gt; {</span></span>
 <span class="line"><span>+        month = padZero(month)</span></span>
-<span class="line"><span>+        return `${year}-${month}` === selected</span></span>
+<span class="line"><span>+        return \`\${year}-\${month}\` === selected</span></span>
 <span class="line"><span>+      })</span></span>
 <span class="line"><span>+      if (_index !== -1) {</span></span>
 <span class="line"><span>+        // #ifndef MP-WEIXIN</span></span>
 <span class="line"><span>+        this.$nextTick(() =&gt; {</span></span>
-<span class="line"><span>+          this.scrollIntoView = `month-${_index}`</span></span>
+<span class="line"><span>+          this.scrollIntoView = \`month-\${_index}\`</span></span>
 <span class="line"><span>+          this.scrollIntoViewScroll = this.scrollIntoView</span></span>
 <span class="line"><span>+        })</span></span>
 <span class="line"><span>+        // #endif</span></span>
@@ -755,7 +732,7 @@
 <span class="line"><span>+      for (let i = 0; i &lt; this.months.length; i++) {</span></span>
 <span class="line"><span>+        if (scrollTop &gt;= (this.months[i].top || this.listHeight)) {</span></span>
 <span class="line"><span>+          this.monthIndex = i</span></span>
-<span class="line"><span>+          this.scrollIntoViewScroll = `month-${i}`</span></span>
+<span class="line"><span>+          this.scrollIntoViewScroll = \`month-\${i}\`</span></span>
 <span class="line"><span>+        }</span></span>
 <span class="line"><span>+      }</span></span>
 <span class="line"><span>+    },</span></span>
@@ -814,8 +791,4 @@
 <span class="line"><span>+    padding: 7px 18px;</span></span>
 <span class="line"><span>+  }</span></span>
 <span class="line"><span> }</span></span>
-<span class="line"><span> &lt;/style&gt;</span></span></code></pre></div></details></div></div></main><footer class="VPDocFooter" data-v-c9533696 data-v-9dc03456><!--[--><!--]--><div class="edit-info" data-v-9dc03456><!----><div class="last-updated" data-v-9dc03456><p class="VPLastUpdated" data-v-9dc03456 data-v-826f0442>最后更新时间: <time datetime="2024-12-16T03:32:33.000Z" data-v-826f0442></time></p></div></div><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter has-sidebar" data-v-72a86f6d data-v-2356068b><div class="container" data-v-2356068b><p class="message" data-v-2356068b>作者: coisini</p><!----></div></footer><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"admin_basis_button.md\":\"DSaYjmI7\",\"admin_overview.md\":\"57-Mnc0j\",\"guide_install.md\":\"CJzU-hAI\",\"guide_start.md\":\"BE6TXazo\",\"hooks_usecontext.md\":\"BOK9SEmx\",\"hooks_usedebounce.md\":\"CXcaoG5H\",\"hooks_useeffect.md\":\"DbbYTYKG\",\"hooks_useeventbus.md\":\"CZ_lbt7O\",\"hooks_uselocations.md\":\"ihX4hf2k\",\"hooks_usepreview.md\":\"DOxVBHjN\",\"hooks_userequest.md\":\"_zoQCHgk\",\"hooks_useroute.md\":\"CGDtVBhy\",\"hooks_userouter.md\":\"DxFAGJ0X\",\"hooks_useroutetree.md\":\"CGxH2QTR\",\"hooks_usethrottle.md\":\"InBAH2xP\",\"index.md\":\"COt3Xea1\",\"markdown-examples.md\":\"D9Pm3GSq\",\"mini_overview.md\":\"CiE7l7MD\",\"patch_uview.md\":\"CTBGhP7l\",\"plugins_path-replace.md\":\"B1QUXh-a\",\"plugins_px-to-rpx.md\":\"fw_3aIGL\",\"readme.md\":\"C04TIKuR\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"电攻邦-组件库\",\"description\":\"跨项目使用的组件库\",\"base\":\"/docs-dgb.github.io/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"首页\",\"link\":\"/\"},{\"text\":\"指南\",\"link\":\"/guide/start\"},{\"text\":\"后台组件\",\"link\":\"/admin/overview\"},{\"text\":\"小程序组件\",\"link\":\"/mini/overview\"},{\"text\":\"API\",\"link\":\"/hooks/useRequest\"},{\"text\":\"Vite插件\",\"link\":\"/plugins/path-replace\"},{\"text\":\"补丁\",\"link\":\"/patch/uview\"}],\"sidebar\":{\"/guide/\":[{\"text\":\"指南\",\"link\":\"/guide/start\"}],\"/admin/\":[{\"text\":\"Overview 组件总览\",\"items\":[{\"text\":\"Overview 组件总览\",\"link\":\"/admin/overview\"}]},{\"text\":\"Basic 基础组件\",\"items\":[{\"text\":\"Button 按钮\",\"link\":\"/admin/basis/button\"}]}],\"/mini/\":[{\"text\":\"Overview 组件总览\",\"items\":[{\"text\":\"Overview 组件总览\",\"link\":\"/mini/overview\"}]}],\"/hooks/\":[{\"text\":\"通用Hooks\",\"items\":[{\"text\":\"useRequest\",\"link\":\"/hooks/useRequest\"},{\"text\":\"useEffect\",\"link\":\"/hooks/useEffect\"},{\"text\":\"useEventBus\",\"link\":\"/hooks/useEventBus\"},{\"text\":\"useDebounce\",\"link\":\"/hooks/useDebounce\"},{\"text\":\"useThrottle\",\"link\":\"/hooks/useThrottle\"},{\"text\":\"useContext\",\"link\":\"/hooks/useContext\"}]},{\"text\":\"小程序Hooks\",\"items\":[{\"text\":\"useLocations\",\"link\":\"/hooks/useLocations\"},{\"text\":\"useRouteTree\",\"link\":\"/hooks/useRouteTree\"},{\"text\":\"useRoute\",\"link\":\"/hooks/useRoute\"},{\"text\":\"useRouter\",\"link\":\"/hooks/useRouter\"},{\"text\":\"usePreView\",\"link\":\"/hooks/usePreView\"}]}],\"/patch/\":[{\"text\":\"补丁大全\",\"items\":[{\"text\":\"UView 补丁\",\"link\":\"/patch/uview\"}]}],\"/plugins/\":[{\"text\":\"Vite插件\",\"items\":[{\"text\":\"路径自动替换\",\"link\":\"/plugins/path-replace\"},{\"text\":\"px转rpx\",\"link\":\"/plugins/px-to-rpx\"}]}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/kingning2?tab=repositories\"}],\"footer\":{\"message\":\"作者: coisini\"},\"search\":{\"provider\":\"local\"},\"lastUpdated\":{\"text\":\"最后更新时间\",\"formatOptions\":{\"dateStyle\":\"full\",\"timeStyle\":\"medium\"}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
-    
-  </body>
-</html>
+<span class="line"><span> &lt;/style&gt;</span></span></code></pre></div></details>`,7)]))}const h=s(l,[["render",e]]);export{u as __pageData,h as default};

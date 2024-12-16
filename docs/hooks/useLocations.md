@@ -44,7 +44,7 @@ await useLocations(refetch) // 在成功之后会自带调用 refetch 函数
 
 ## 具体实现代码
 
-::: details 代码
+::: details 源代码
 ```ts
 /**
  * 获取用户位置信息

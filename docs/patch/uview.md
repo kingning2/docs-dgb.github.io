@@ -26,7 +26,7 @@ outline: deep
 ```
 :::
 
-::: details 代码
+::: details 源代码
 
 ```patch
 diff --git a/components/u-calendar/calendar.js b/components/u-calendar/calendar.js

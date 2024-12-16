@@ -52,7 +52,7 @@ usePreView({
 参考 [uni.previewImage](https://uniapp.dcloud.net.cn/api/system/preview-image)
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 const usePreView = (
   img: string | string[] | UniNamespace.PreviewImageOptions,

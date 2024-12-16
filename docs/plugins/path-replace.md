@@ -30,7 +30,7 @@ export default {
 
 ## 具体代码
 
-::: details 代码
+::: details 源代码
 
 ```ts
 import { Plugin } from 'vite';

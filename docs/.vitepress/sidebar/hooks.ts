@@ -7,6 +7,7 @@ const hooksSidebar = [
       { text: 'useEventBus', link: '/hooks/useEventBus' },
       { text: 'useDebounce', link: '/hooks/useDebounce' },
       { text: 'useThrottle', link: '/hooks/useThrottle' },
+      { text: 'useContext', link: '/hooks/useContext' },
     ],
   },
   {

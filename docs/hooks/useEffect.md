@@ -96,7 +96,7 @@ test.value = 2
 参考 [React useEffect](https://react.dev/reference/react/useEffect)
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 import { onMounted, onUnmounted, watch } from 'vue';
 

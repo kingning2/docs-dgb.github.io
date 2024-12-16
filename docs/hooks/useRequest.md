@@ -171,7 +171,7 @@ useRequest(api, {
 
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 import { ref, type Ref } from 'vue';
 import { useDebounce, useThrottle } from '..';

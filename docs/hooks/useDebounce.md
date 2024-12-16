@@ -32,7 +32,7 @@ const debounce = useDebounce(fn, delay)
 | delay | 防抖时间 | `number` | 1000 |
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 
 ```ts
 /* eslint-disable no-unused-vars */

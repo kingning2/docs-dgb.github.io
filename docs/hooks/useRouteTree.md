@@ -75,7 +75,7 @@ useRouteTree.getNowRoute('pages/home/test') // 获取当前页面路由对象
 | children | 子路由 | `Route[]` | - |
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 import UNIPAGE from '@/pages.json';
 import type { TabbarKey } from '@/types/context';

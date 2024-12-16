@@ -51,7 +51,7 @@ router.back() // 返回
 参考 [uni 页面和路由](https://uniapp.dcloud.net.cn/api/router)
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 type ParamsType =
   | {

@@ -8,6 +8,7 @@ import {
   patchSidebar,
   pluginsSidebar,
 } from './sidebar/index.mts'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: '电攻邦-组件库',
@@ -81,10 +82,8 @@ export default defineConfig({
     },
   ],
   markdown: {
-    config(md) {
-      md.use(demoBlockPlugin, {
-        customClass: 'demo-block',
-      })
-    },
+    config: (md) => {
+      md.use(demoBlockPlugin)
+    }
   },
 })

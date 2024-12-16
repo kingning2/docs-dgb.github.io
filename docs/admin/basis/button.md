@@ -8,6 +8,7 @@
   <el-button type="info">灰色按钮</el-button>
   <el-button type="warning">黄色按钮</el-button>
   <el-button type="danger">红色按钮</el-button>
+  <d-Button type="primary">主要按钮</d-Button>
 </div>
 
 <details>

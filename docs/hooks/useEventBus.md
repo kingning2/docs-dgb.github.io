@@ -47,7 +47,7 @@ eventBus.off('eventName')
 | off | 移除事件 | `(eventName: string) => void` | - |
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 class EventBus {
   private events: Map<string | symbol, ((...res: any[]) => void)[]> = new Map();

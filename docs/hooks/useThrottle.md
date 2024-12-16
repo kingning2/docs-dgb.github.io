@@ -32,7 +32,7 @@ const throttle = useThrottle(fn, delay)
 | delay | 节流时间 | `number` | 1000 |
 
 ## 具体实现代码
-::: details 代码
+::: details 源代码
 ```ts
 const useThrottle = <T extends any[], D>(
   cb: (..._argv: T) => D,

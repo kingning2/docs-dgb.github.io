@@ -19,6 +19,13 @@ const hooksSidebar = [
       { text: 'useRouter', link: '/hooks/useRouter' },
       { text: 'usePreView', link: '/hooks/usePreView' },
     ]
+  },
+  {
+    text: '后台Hooks',
+    items: [
+      { text: 'useAuthorityRouting', link: '/hooks/useAuthorityRouting' },
+      { text: 'usePreView', link: '/hooks/usePreView-admin' },
+    ]
   }
 ]
 

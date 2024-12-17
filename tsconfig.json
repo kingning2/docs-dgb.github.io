@@ -40,5 +40,5 @@
     "docs/.vitepress/**/*.vue",
     "vite.config.ts",
     "packages/types/*.d.ts"
-  ]
+, "docs/hooks/useAuthorityRouting.ts"  ]
 } 

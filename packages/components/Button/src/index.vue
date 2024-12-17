@@ -1,4 +1,4 @@
-<script setup name="Button" lang="jsx">
+<script setup name="Button" lang="tsx">
 import { ElButton } from 'element-plus'
 defineProps({
   name: {
@@ -6,6 +6,7 @@ defineProps({
     default: '按钮',
   },
 })
+
 </script>
 
 <template>

@@ -8,7 +8,12 @@
   <el-button type="info">灰色按钮</el-button>
   <el-button type="warning">黄色按钮</el-button>
   <el-button type="danger">红色按钮</el-button>
-  <d-Button type="primary">主要按钮</d-Button>
+  <d-ListTable splitPage toolbar :columns="[
+    {key: 'test', dataIndex: 'test', title:'测试'},
+    {key: 'test', dataIndex: 'test', title:'测试'},
+    {key: 'test', dataIndex: 'test', title:'测试'},
+    {key: 'test', dataIndex: 'test', title:'测试'},
+  ]" />
 </div>
 
 <details>
@@ -26,7 +31,6 @@
 
 </details>
 
-
 ### plain用法
 
 <div class="ui-button">
@@ -39,11 +43,12 @@
 
 ::: details CODE
 
-``` vue
+```vue
 <el-button type="primary" plain>主要按钮</el-button>
 <el-button type="success" plain>绿色按钮</el-button>
 <el-button type="info" plain>灰色按钮</el-button>
 <el-button type="warning" plain>黄色按钮</el-button>
 <el-button type="danger" plain>红色按钮</el-button>
 ```
+
 :::

@@ -2,7 +2,7 @@ import type { App, Component } from 'vue'
 
 // 取出组件名字
 
-const components: Record<string, Component> = import.meta.glob('./components/**/*.vue', {
+const components: Record<string, Component> = import.meta.glob('./components/**/index.vue', {
   eager: true,
 })
 
@@ -19,14 +19,10 @@ Object.keys(components).forEach(key => {
   componentsList.push(com)
 })
 
-
-
 // 组件库插件
 const DgbUI = {
   install(app: App) {
     componentsList.forEach(component => {
-      console.log(component);
-      
       app.component(component.name as string, component)
     })
   }
